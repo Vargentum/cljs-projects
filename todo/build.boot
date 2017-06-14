@@ -11,7 +11,8 @@
                  [org.clojure/clojurescript "1.9.562"]
                  [rum "0.10.7"]
                  [binaryage/devtools "0.9.4" :scope "test"]
-                 [powerlaces/boot-cljs-devtools "0.2.0" :scope "test"]])
+                 [powerlaces/boot-cljs-devtools "0.2.0" :scope "test"]
+                 [org.roman01la/scrum "2.2.0-SNAPSHOT"]])
 
 (require
  '[adzerk.boot-cljs      :refer [cljs]]

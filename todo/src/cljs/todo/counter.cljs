@@ -1,4 +1,4 @@
-(ns todo.app
+(ns todo.counter
     (:require [rum.core :as rum]
               [scrum.core :as scrum]))
 
@@ -64,9 +64,4 @@
      :controllers
      {:counter control} ;; controllers
      :effect-handlers
-     {:local-storage local-storage}})) ;; effect handlers
-
-
-(defn init []
-  (rum/mount (Counter reconciler) 
-             (. js/document (getElementById "container"))))
+     {:local-storage local-storage}})) ;; effect 
